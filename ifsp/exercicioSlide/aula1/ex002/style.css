@@ -1,0 +1,5 @@
+﻿@charset "utf8";
+
+header :not(h1){
+    text-align: center;
+}

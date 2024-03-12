@@ -1,0 +1,162 @@
+HEXADECIMAL FUNCIONA ASSIM:
+     R G B
+    #9900d3
+    
+    # 99 = QUANTIDADE DE VERMELHO (153)
+      00 = QUANTIDADE DE VERDE    (0)
+      d3 = QUANTIDADE DE AZUL     (211)
+
+HARMOZINAR CORES:
+
+    circulo cromatico
+
+      cores primarias: 
+        amarelo  #FCF131, QUENTE
+        vermelho #F5000F, QUENTE
+        azul     #0750F3  FRIA
+
+      cores secundarias: 
+        laranja #FD851E, QUENTE
+        violeta #5C1476, FRIA
+        verde   #00AD4B  FRIA
+
+      cores terciarias: 
+        amarelo-esverdeado, #76DE43 FRIA
+        amarelo-alaranjado, #FBC62B QUENTE
+        vermelho-alaranjado,#FA4916 QUENTE
+        vermelho-arroxeado, #8F248B QUENTE
+        azul-arroxeado,     #5E2FDB FRIA
+        azul-esverdeado     #00836F FRIA
+
+      HARMONIA
+
+        CORES COMPLEMENTARES (contraste grande)
+
+          cores opostas no circulo cromatico
+          amarelo  #FCF131, QUENTE
+          violeta  #5C1476  FRIA
+
+          vermelho #F5000F, QUENTE
+          verde    #00AD4B  FRIA
+
+          azul     #0750F3  FRIA
+          laranja  #FD851E  QUENTE
+
+        CORES ANÁLOGAS (contraste pequeno)
+
+          cores imediatamente ao lado (vizinhas)
+          azul-arroxeado,     #5E2FDB, FRIA
+          violeta             #5C1476, FRIA
+          vermelho-arroxeado, #8F248B  QUENTE
+        
+        CORES ANÁLOGAS E UMA COMPLEMENTAR
+
+          cores imediatamente ao lado e uma oposta
+          azul-arroxeado,     #5E2FDB, FRIA
+          violeta             #5C1476, FRIA
+          vermelho-arroxeado, #8F248B, QUENTE
+          amarelo             #FCF131  QUENTE
+
+          amarelo-alaranjado,  #FBC62B, QUENTE
+          laranja              #FD851E, QUENTE
+          vermelho-alaranjado, #FA4916, QUENTE
+          azul                 #0750F3  FRIA
+
+        CORES ANÁLOGAS RELACIONADAS
+
+          cores ao lado, porem pulando uma cor para um dos lados (12_4, 1_34)
+          amarelo             #FCF131, QUENTE
+          amarelo-alaranjado, #FBC62B, QUENTE
+          laranja             #FD851E  QUENTE
+
+          amarelo-alaranjado, #FBC62B, QUENTE
+          amarelo             #FCF131, QUENTE
+          verde               #00AD4B  FRIA
+        
+        CORES INTERCALADAS
+
+          cores ao lado pulando uma cor para os dois lados (1_3_5, 2_4_6)
+          amarelo  #FCF131, QUENTE
+          laranja  #FD851E, QUENTE
+          vermelho #F5000F, QUENTE
+
+          amarelo-esverdeado, #76DE43 FRIA
+          azul-esverdeado     #00836F FRIA
+          azul-arroxeado,     #5E2FDB FRIA
+        
+        CORES TRIÁDICAS
+
+          pulando tres cores
+          amarelo  #FCF131, QUENTE
+          vermelho #F5000F, QUENTE
+          azul     #0750F3  FRIA
+
+          vermelho-alaranjado,#FA4916, QUENTE
+          azul-arroxeado,     #5E2FDB, FRIA
+          amarelo-esverdeado, #76DE43  FRIA
+
+        CORES EM QUADRADO
+
+          pulando duas cores
+          amarelo              #FCF131, QUENTE
+          vermelho-alaranjado, #FA4916  QUENTE
+          violeta              #5C1476, FRIA
+          azul-esverdeado      #00836F, FRIA
+
+        CORES TETRADICAS
+
+          cor oposta, pula uma, e pega sua oposta
+          verde    #00AD4B, FRIA
+          vermelho #F5000F, QUENTE
+          laranja  #FD851E, QUENTE
+          azul     #0750F3  FRIA
+
+        MONOCROMIA
+
+          modifica apenas saturação e brilho
+          laranja #FD851EFF, QUENTE
+          laranja #FD851Ea0, QUENTE
+          laranja #FD851E5f, QUENTE
+          laranja #FD851E30  QUENTE
+
+TIPOGRAFIA
+
+  anatomia
+
+    anatomia do tipo
+    A b e g k n r s x Q
+
+    altura das maiusculas = A Q
+    ascendente = b k t d
+    descendente = g q p j
+    corpo = A b g k Q
+    altura-x = x a m s
+
+    serifa = pequeno traço nas letras em algumas fontes
+      facilita a leitura no papel
+    
+    categoria de fontes
+      serifada = TEM SERIFA
+      sans-serif = SEM SERIFA (texto grande em sites)
+      monoespaçada = todos os glifos tem o mesmo espaço (pode ou não ter serifa)
+      handwriting/script = simula a escrita a mão
+      display/comemorativas = fontes sem as caracteristicas a cima
+
+MODELO DE CAIXAS
+
+  aninhamento de CAIXAS
+
+  altura = height
+  largura = width
+
+  linha que circunda o conteudo = border
+  border ficar distante do conteudo = padding
+  border ficar distante de OUTROS conteudos = margin
+  contorno fora do elemento = outline
+
+  padding = interno
+  margin = externo
+
+  tipos de CAIXAS
+    box-level = QUEBRA A LINHA PARA ADICIONAR CAIXA E PREENCHE 100% DO WIDTH <div>
+    inline-level = O CONTRARIO <span>

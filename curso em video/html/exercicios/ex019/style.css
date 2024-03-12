@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*
+id(html) = #(css) (só um elemento)
+class(html) = .(css) (pode varios elementos)
+*/
+
+body{
+    background-color: #ffa7ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(129, 52, 129);
+}
+
+h2{
+    color: rgb(163, 70, 163);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(129, 52, 129);
+    color: rgb(255, 167, 255);
+    padding: 15px;
+}
+
+.basico{
+    color: #6c914a;
+}
+
+.basico::after{
+    content: " \1F60A";
+}
+
+.inter{
+    color: #bb8c1e;
+}
+
+.inter::after{
+    content: " \1F62C"
+}
+
+.avan{
+    color: #cc543d;
+}
+
+.avan::after{
+    content: " \1F480";
+}
+
+.destaque{
+    background-color: rgba(223, 162, 22, 0.699);
+    padding: 0px 2px 0px 2px;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+    padding: 15px;
+    border-radius: 1em;
+    background-color: #ffb8ff;
+}
+
+p{
+    text-align: justify;
+}

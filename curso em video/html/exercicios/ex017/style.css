@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    /*
+    Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Relativas
+    em, ex, rem, vw, vh, %
+    16px = 1em
+    */
+    font-family: 'Work Sans';
+
+}
+
+h1{
+   /* shorthand font: style weight size family*/
+    font: italic bolder 2em 'Work Sans'
+}
+
+h2{
+    font: bold 2em 'Work Sans'
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan e Rowspan</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabela Aviação</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Fabricantes de Aviões</th>
+                <th colspan="3">Informações</th>
+                <th rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <th>Localização</th>
+                <th>Número de Funcionários</th>
+                <th>Produtos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Boeing</td>
+                <td>Seattle, EUA</td>
+                <td>153.000</td>
+                <td>Aviões Comerciais</td>
+                <td rowspan="2">500</td>
+            </tr>
+            <tr>
+                <td>Charleston, EUA</td>
+                <td>7.000</td>
+                <td>Componentes e Simulações</td>
+            </tr>
+            <tr>
+                <td>Airbus</td>
+                <td>Toulouse, França</td>
+                <td>134.000</td>
+                <td>Aeronaves Comerciais</td>
+                <td>420</td>
+            </tr>
+            <tr>
+                <td colspan="5">Outros Fabricantes</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Embraer</td>
+                <td>São José dos Campos - SP, Brasil</td>
+                <td>18.000</td>
+                <td>Jatos Regionais</td>
+                <td rowspan="2">325</td>
+            </tr>
+            <tr>
+                <td>Gavião Peixoto - SP, Brasil</td>
+                <td>6.000</td>
+                <td>Aviões Comerciais e Militares</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

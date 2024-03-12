@@ -1,0 +1,26 @@
+﻿@charset "utf8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: 1px solid black;
+}
+
+td.num{
+    text-align: right;
+}
+
+tr.centro{
+    text-align: center;
+}
+
+ol > li{
+    font-weight: bolder;
+}
